@@ -1,0 +1,56 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.header{
+  background-color: red;
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+  font-size: x-large;
+  padding: 20px;
+  border-radius: 5px;
+  
+ 
+  
+}
+.main img{
+  margin-left: 300px;
+  border-radius: 10px;
+
+}
+.hi{
+  margin-left: 50px;
+}
+.name{
+  color: rgb(70, 70, 65,0.5);
+  text-decoration: underline;
+  margin-left: 18px;
+  
+}
+.nameof{
+  margin-top: 20px;}
+.date{
+  font-weight: bold;
+  font-size: smaller;
+  margin-top: 20px;
+ 
+}
+.content{
+  margin-top: 10px;
+  width: 400px;
+}
+.main{
+
+
+display: flex;
+  flex-direction: row; /* Keep the main content flex row */
+  align-items: flex-start; /* Align items to the top */
+  gap: 20px; /* Space between image and content */
+   /* Adjust as needed */
+margin-top: 50px;
+ 
+}

@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+}
+
+.contact-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  margin: 20px auto;
+  max-width: 300px;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-card img {
+  border-radius: 50%;
+  max-width: 100px;
+  margin: 0 auto;
+}
+
+.contact-card h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.info-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.info-group img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.info-group p {
+  margin: 0;
+}

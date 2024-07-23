@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+  color: white;
+}
+
+.navbar img{
+  width: 150px;
+  padding: 30px;
+}
+.navbar{
+  display: flex;
+  background-color: rgb(38, 36, 36);
+}
+.list{
+  display: flex;
+  list-style-type: none;
+  padding: 30px;
+  margin-top: 20px;
+  justify-content: space-between;
+  gap: 110px;
+  font-size: 30px;
+  margin-left: 50rem;
+ 
+}
+.list li{
+  display: flex;
+  justify-content: space-between;
+}
+.navbar h3{
+  padding: 30px;
+  margin-top: 10px;
+  color: aqua;
+  font-size: 40px;
+}
+/****************************************************************************/
+.main{
+  background-image: url(greyreactlogo.png);
+  
+  background-repeat: no-repeat;
+  background-position-x:right ;
+  background-position-y: 75%;
+}
+.main h1{
+  padding: 30px;
+  font-size: 40px;
+  font-weight: bolder;
+  
+}
+.main ul{
+  padding: 30px;
+  margin-left: 30px;
+  font-size: 30px;
+
+}
+.main ul li::marker{
+  color: aqua;
+  font-size: 40px;
+}
