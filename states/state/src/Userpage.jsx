@@ -33,19 +33,3 @@
 // }
 
 
-// import React from 'react'
-
-// export const Userpage = () => {
-//   const[contact,setcontact]=React.useEffect({
-
-//   })
-
-//   let staricon=contact.isfav?"fav":"normal";
-//   function togglestar(){
-    
-//   }
-  
-//   return (
-
-//   )
-// }
